@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
                 try {socket.close();} catch (Exception e1){} //关闭socket//有了这两句会跳到log333那里？？？
                 try {inputStream.close();} catch (Exception e1){}//关闭数据流
-                try {outputStream.close();} catch (Exception e1){}
+//                try {outputStream.close();} catch (Exception e1){}//这句不能加！！！？？？
             }
         }
     };
